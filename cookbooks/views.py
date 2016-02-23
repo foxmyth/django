@@ -5,3 +5,6 @@ from django.http import HttpResponse
 def index(request):
 	# return HttpResponse("test")
 	return render(request, 'index.html', {})
+
+def google3442(request):
+	return render(request, 'google3442c2f65fabc905.html', {})
